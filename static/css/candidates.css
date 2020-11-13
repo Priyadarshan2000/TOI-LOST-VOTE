@@ -1,0 +1,36 @@
+.body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+
+.tab {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.thread-dec {
+    background-color: #57cc99;
+}
+
+.down-row {
+    background-color: #edfcf1;
+}
+
+.modal-img {
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.party{
+    font-size: 25px;
+}

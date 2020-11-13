@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <title> Register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="static/css/base.css" />
+    <link rel="icon" type="image/svg" href="static/images/favicon.svg" class="fav">
+    
+  <link rel="stylesheet" href="static/css/register.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&amp;display=swap" rel="stylesheet">
+  <script src="static/script/register.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark sticky-top navbar-expand-md">
+       
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <strong>Home</strong>
+            </a>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li><a class="nav-link" href="results.html"> <span class="d-md-none d-lg-inline">Live</span>&nbsp;Results</a></li>
+                    <li><a class="nav-link" href="voter_list.html">Voters</a></li>
+                    <li><a class="nav-link" href="candidate_list.html"> Candidates</a></li>
+                    
+                </ul>
+
+                <ul class=" navbar-nav ml-auto">
+                   
+                    
+                    <li><a class="nav-link" href="register.html">Register</a></li>
+                    <li><a class="nav-link" href="login.html"> Login</a> </li>
+                    
+
+
+                </ul>
+            </div>
+        
+    </nav>
+    
+    
+
+       <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto col-sm-9 col-md-7 col-lg-5 div-form">
+                        <h2>Create Account</h2><br>
+                        <form method="POST" onsubmit="return validate();">
+
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" class="form-control" name="name" id="name" placeholder="">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="dob">Date of Birth</label>
+                                <input type="date" class="form-control" name="dob" id="dob" min="1900-01-01" max="2003-01-01">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="aadhar-id">Aadhar Card Number (12 digits)</label>
+                                <input type="number" class="form-control" name="aadhar_id" id="aadhar-id" placeholder="0000111122223333">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="text" class="form-control" name="email" id="email" placeholder="asdf@mail.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-no">Contact Number (10 digits)</label>
+                                <input type="number" class="form-control" name="contact_no" id="contact-no" placeholder="">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Pass@123">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password-confirm">Confirm Password</label>
+                                <input type="password" class="form-control" id="password-confirm" placeholder="Pass@123">
+                            </div>
+                            
+                            <p id="warning">
+                                
+                            </p>
+                            
+                            <button type="submit" class="btn  btn-primary">Sign Up</button>
+
+                        </form><br>
+
+                        
+                        <p id="cast-vote-link">
+                            <span >Already have an account? </span>
+                            <a href="login.html" class="extra"><b>Login</b></a>
+                        </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    
+</body>    
+
+
+
+</html>
