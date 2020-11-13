@@ -16,4 +16,7 @@ If You don't vote you lose the right to complain.
 |             | JavaScript |           |
 |             | Bootstrap  |           |
 
+## How to vote ?
+![timeline](https://user-images.githubusercontent.com/57187745/96223391-71eb4380-0fab-11eb-85a8-b5e5c967dd2a.png)
+
 https://docs.google.com/presentation/d/1c8sRPj38AUmaOefSAZe3X0_BoNpgPrqhZWQThSIwcMQ/edit?usp=sharing
