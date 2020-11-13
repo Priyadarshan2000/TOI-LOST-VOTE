@@ -14,5 +14,6 @@ If You don't vote you lose the right to complain.
 |             | CSS        | MongoDB   |
 |             | Bootstrap  | PostgreSQL|
 |             | JavaScript |           |
+|             | Bootstrap  |           |
 
 https://docs.google.com/presentation/d/1c8sRPj38AUmaOefSAZe3X0_BoNpgPrqhZWQThSIwcMQ/edit?usp=sharing
