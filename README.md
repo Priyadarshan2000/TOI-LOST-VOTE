@@ -1,5 +1,5 @@
 ## LOST-VOTE PORTAL
-If You don't vote you lose the right to complain.
+> **If You don't vote you lose the right to complain.**
 
 ## Why E-Voting ?
 >- Allows people to vote from anywhere
