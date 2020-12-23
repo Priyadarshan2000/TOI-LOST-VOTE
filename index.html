@@ -5,6 +5,7 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
     <title> Lost Vote</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -21,6 +22,7 @@
 </head>
 
 <body>
+    <div class="alan-btn"></div>
 
     <nav class="navbar navbar-dark sticky-top navbar-expand-md">
        
@@ -264,7 +266,7 @@
         </div>
         
         <div class="col-6 col-md-3 text-center">
-            <span class="dev-name">Priyadarshan</span>
+            
             <ul class="social-icons">
                 <li><a class="website" target="_blank" href="https://priyadarshanghosh.blogspot.com/"><i class="fa fa-globe fa-lg"></i></a></li>
                 <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/priyadarshan-ghosh-0a6274190/"><i class="fa fa-linkedin fa-lg"></i></a></li>
@@ -275,11 +277,18 @@
       </div>
     </div>
 </footer>
-
-
-    
-</body>    
-
-
-
+<script type="text/javascript"
+ src="https://studio.alan.app/web/lib/alan_lib.js"></script>
+<script>
+  var alanBtnInstance = alanBtn({
+    key: "b81cd432d13dafc6d3bbf606cd9cf12e2e956eca572e1d8b807a3e2338fdd0dc/stage",
+    onCommand: function (commandData) {
+      if (commandData.command === "go:back") {
+        //call client code that will react on the received command
+      }
+    },
+    rootEl: document.getElementById("alan-btn"),
+  });
+</script>    
+</body>  
 </html>
