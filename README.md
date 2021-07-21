@@ -1,6 +1,7 @@
 ## LOST-VOTE PORTAL
 > **If You don't vote you lose the right to complain.**
 
+
 ## Why Online-Voting ?
 >- Allows people to vote from anywhere
 >- Tends to maximize user participation
